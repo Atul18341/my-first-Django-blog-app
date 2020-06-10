@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+   <title>Quotso: My Quotes World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+ </head>
+<body>
+  <div class='page-header'>
+   <h2>Quotso:My Quotes World</h2>
+  </div>
+	<div class="content container">
+		<div class="row">
+			<div class="col-md-8">
+				{% block content %}
+				{% endblock %}
+			  </div>
+		</div>
+	</div>
+</body>

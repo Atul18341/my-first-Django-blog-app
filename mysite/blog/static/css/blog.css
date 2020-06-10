@@ -1,4 +1,12 @@
 h2{color:#C25100;
    font-family: 'Roboto', sans-serif;}
-body{padding-left:15px;}
-div{font-family: 'Bentham', serif;}
+*{padding:0;margin:0;}
+.page-header{background-color:#0B59CE;
+             padding:20px;}
+.page-header h2{
+	        color:white;}
+a{text-decoration:none;}
+.quotes{padding:15px;
+        }
+.date{padding-left:10px;
+      font-weight:bold;}
